@@ -6,4 +6,7 @@ function minus(a, b) {
   return a - b;
 }
 
-module.exports = { sum, minus };
+function multiply(a, b) {
+  return a * b;
+}
+module.exports = { sum, minus, multiply };
